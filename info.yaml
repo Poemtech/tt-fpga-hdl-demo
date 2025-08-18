@@ -4,10 +4,10 @@ project:
   # If using a Wokwi, set wokwi_id as the ID number found in your Wokwi project URL.
   wokwi_id:     0        # If using wokwi, set this to your project's ID
   
-  title:        "TBD"      # Project title
-  author:       "TBD"      # Your name
+  title:        "Makerchip Calculator demo"      # Calculator demo project
+  author:       "POEM"      # POEM Technology
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "TBD"      # One line description of what your project does
+  description:  "Demo calculator project"      # Demo 
   language:     "TL-Verilog" # other examples include Verilog, SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
