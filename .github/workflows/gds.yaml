@@ -5,6 +5,11 @@ on:
   workflow_dispatch:
 
 jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    environment:
+      name:
+        github-pages
   gds:
     runs-on: ubuntu-24.04
     steps:
@@ -52,9 +57,4 @@ jobs:
     steps:
       - uses: TinyTapeout/tt-gds-action/viewer@tt10
  
-  deploy:
-    needs: gds
-    runs-on: ubuntu-24.04
-    environment:
-      name:github-pages
     
