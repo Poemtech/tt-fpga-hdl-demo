@@ -11,9 +11,7 @@
    // stimulus support, and Verilator config.
    m5_makerchip_module   // (Expanded in Nav-TLV pane.)
 \TLV
-   $large[1:0] = $weight[7:0] >= 8'd56 ;
-   $md = 2'd1;
-   $lg = 2'd2;
+   $weight[7:0] >= 8'd56 ;
    $size[1:0]  =
                    $weight >= 8'd64
                    ? 2'd3 :
